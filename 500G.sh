@@ -56,6 +56,7 @@ check_success "Memformat Logical Volume /dev/vg_home/lv_home"
 echo "Membuat direktori /home..."
 sudo mkdir -p /home
 check_success "Membuat direktori /home"
+sudo mount /dev/vg_home/lv_home /home
 
 # Mount Logical Volume to /home
 echo "Memasang Logical Volume ke /home..."
