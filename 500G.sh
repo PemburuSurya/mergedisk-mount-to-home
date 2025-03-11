@@ -1,16 +1,5 @@
 #!/bin/bash
 
-# Fungsi untuk mengecek apakah perintah berhasil dijalankan
-check_success() {
-    if [ $? -eq 0 ]; then
-        echo "[SUCCESS] $1"
-    else
-        echo "[FAILED] $1"
-        echo "Skrip dihentikan karena terjadi kegagalan."
-        exit 1
-    fi
-}
-
 # Unmount volumes
 echo "Memulai unmount volumes..."
 sudo umount /mnt/volume_sgp1_01
