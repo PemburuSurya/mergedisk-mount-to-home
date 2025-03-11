@@ -6,7 +6,6 @@ Skrip ini digunakan untuk menggabungkan beberapa disk menjadi satu Logical Volum
 
 ## **Cara Menggunakan**
 
-1. **Clone Repositori ini dan Jalankan Skrip:**
-   Salin dan jalankan perintah berikut di terminal Anda:
+1. **Merge Disk & Mount to Home 500GB**
    ```bash
    git clone https://github.com/PemburuSurya/mergedisk-mount-to-home.git && cd mergedisk-mount-to-home && chmod +x 500G.sh && ./500G.sh
